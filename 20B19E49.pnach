@@ -1,0 +1,6 @@
+//GTA Vice City No Interlace
+patch=2,EE,20112B24,extended,00000000
+
+//60FPS
+patch=2,EE,20272204,extended,28420001
+

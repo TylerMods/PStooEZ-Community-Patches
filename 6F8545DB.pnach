@@ -1,0 +1,42 @@
+//ICO Fix and Enhancements
+
+//Maximum Graphics Booster, No Ghosting, Sharpest Image
+patch=2,EE,20130450,extended,03e00008
+patch=2,EE,20130454,extended,00000000
+patch=2,EE,201eef18,extended,03e00008
+patch=2,EE,201eef1c,extended,00000000
+patch=2,EE,20113298,extended,03e00008
+patch=2,EE,2011329c,extended,00000000
+patch=2,EE,201133e0,extended,03e00008
+patch=2,EE,201133e4,extended,00000000
+
+//Post Effect Fix
+patch=2,EE,00275208,word,00000000
+
+//Characters Enhancements
+patch=2,EE,001159EC,word,24020000
+patch=2,EE,00115938,word,24130000
+patch=2,EE,00115948,word,24130000
+patch=2,EE,00115f2c,word,44806000
+patch=2,EE,00275180,word,3F900000
+patch=2,EE,00275184,word,3F900000
+patch=2,EE,00275188,word,3F900000
+patch=2,EE,0027518C,word,3F800000
+patch=2,EE,002751F0,word,00000080
+patch=2,EE,002751F4,word,00000080
+patch=2,EE,002751F8,word,00000080
+patch=2,EE,002751FC,word,00000000
+
+//60FPS
+patch=2,EE,E0010000,extended,006325B4
+patch=2,EE,00274EC4,extended,00000001
+patch=2,EE,E0010001,extended,006325B4
+patch=2,EE,00274EC4,extended,00000002
+
+//No Black Borders
+patch=2,EE,00112fd8,word,44800800
+patch=2,EE,00112ff0,word,44800800
+patch=2,EE,00113000,word,44800800
+patch=2,EE,00113120,word,44800000
+
+
